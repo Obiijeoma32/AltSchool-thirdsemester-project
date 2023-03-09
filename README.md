@@ -1,5 +1,5 @@
 # thirdsemester-exam
-
+<a href="https://candy-thirdsemester-project.netlify.app/">Click here🙋‍♀️ for project url</a>
 ## Project setup
 ```
 npm install
