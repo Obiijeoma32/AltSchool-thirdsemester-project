@@ -21,5 +21,12 @@ body {
   background-image: url(https://cdn.shopify.com/s/files/1/0070/7032/files/best-free-stock-photo-websites.jpg?v=1619036042&width=1024);
   background-repeat: no-repeat;
   background-size: 100%;
+  /* image-rendering: pixelated; */
+}
+@media only screen and (max-width: 800px) {
+  body {
+    width: 800px;
+    background-size: auto;
+  }
 }
 </style>
