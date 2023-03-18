@@ -20,12 +20,28 @@ body {
   font-family: "Comfortaa", cursive;
   background-image: url(https://cdn.shopify.com/s/files/1/0070/7032/files/best-free-stock-photo-websites.jpg?v=1619036042&width=1024);
   background-repeat: no-repeat;
-  background-size: 100%;
-  /* image-rendering: pixelated; */
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b5b5b5;
+  border-radius: 10px;
 }
 @media only screen and (max-width: 800px) {
   body {
-    width: 800px;
+    width: 100%;
     background-size: auto;
   }
 }

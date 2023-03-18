@@ -72,7 +72,7 @@ h1 {
   font-size: 50px;
 }
 .button-container {
-  margin-top: 15%;
+  margin-top: 12.5rem;
 }
 .buttons:disabled {
   background-color: #000000;
@@ -95,7 +95,7 @@ h1 {
   margin-top: 0.7%;
 }
 input {
-  width: 815px;
+  width: 77.5%;
   height: 45px;
   border-radius: 5px;
   padding-left: 10px;
@@ -116,12 +116,17 @@ input {
   margin-top: 1.5%;
 }
 @media only screen and (max-width: 800px) {
-  .buttons,
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+  }
   .setvalue button {
     width: 150px;
   }
   input {
-    width: 515px;
+    width: 50%;
   }
 }
 </style>
